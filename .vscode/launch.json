@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "main",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bazel-out/x64_windows-opt/bin/project/main/main.exe",
+            "cwd": "${workspaceFolder}/bazel-out/x64_windows-opt/bin/project/main/main.exe.runfiles/",
+            "sourceFileMap": {
+                "C:/Users/f00/_bazel_f00/miscu3tu/execroot/__main__": "${workspaceFolder}",
+            },
+            "stopAtEntry": false,            
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "build_main"
+        }
+    ]
+}

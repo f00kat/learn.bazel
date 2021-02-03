@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "build_main",
+		"type": "shell",
+		"windows": {
+		  // --compiler=clang-cl
+		  // --//project:asan=True
+		  // --//project:linkstatic=True
+		  "command": "bazel build -c opt //project/main:main --//project:asan=True",
+		},
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
+	  }
+	]
+  }
